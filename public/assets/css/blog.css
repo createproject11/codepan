@@ -18,6 +18,10 @@
   margin-bottom: 20px;
 }
 
+.list-blog .container-judul h3 {
+  color: #007bff !important;
+}
+
 .container-isi-blog .content,
 .list-blog .container-blog .card {
   color: #2926a9;

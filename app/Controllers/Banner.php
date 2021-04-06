@@ -321,7 +321,7 @@ class Banner extends BaseController
         } else {
             $namaFoto = $fotoFile->getRandomName();
             $fotoFile->move('assets/img/banner', $namaFoto);
-            unlink('assets/img/banner/' . $this->request->getVar('fotoLama'));
+            // unlink('assets/img/banner/' . $this->request->getVar('fotoLama'));
         }
 
         $this->bannerModel->save([
